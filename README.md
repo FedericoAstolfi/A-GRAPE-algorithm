@@ -37,8 +37,8 @@ Set the number of control parameters (`M`), evolution time (`T`), and initial/ta
 ```julia
 initial_states = [...]  # Define initial quantum states
 target_states = [...]   # Define target states
-T = 1.0                 # Total evolution time
-M = 10                  # Number of control parameters
+T = 8.0                 # Total evolution time
+M = 500                  # Number of control parameters
 initial_phi = rand(M)   # Random initial control parameters
 alpha = rand(length(initial_states))  # Random phase adjustments
 ```
